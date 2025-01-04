@@ -1,44 +1,6 @@
 OPENAI_API_KEY=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
 
 
-laaaasense no
- 
- 
-haha
- 
-ye bagh ka hai?
- 
-nae ye samny betha EGP ka hai
- 
-ye thora bht gay hai?
- 
-thori*
- 
-larki hai
- 
-ali rathore wali awaz hai
- 
-han maybe masculine ho gym jati ho
- 
-oye cigerrate piny chaly?
- 
-han 
-aya
- 
-Bila chla gya?
- 
-han
- 
-Haseeby
- 
-(‿ˠ‿)( ͡⚆ ͜ʖ ͡⚆ )(‿ˠ‿)
- 
-https://ccrepos.carecloud.com/DefaultCollection/Data%20Science/_git/Call-Auditing/pullrequest/19387
- 
-approve kr
- 
-done
- 
 {
     "message": "Conversation started.",
     "history": [
