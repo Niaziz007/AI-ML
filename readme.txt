@@ -1,7 +1,10 @@
 OPENAI_API_KEY=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
 
 
+<<<<<<< HEAD
  
+=======
+>>>>>>> 02f6939d3b476ef355023420a3d31a33b7664665
 {
     "message": "Conversation started.",
     "history": [
