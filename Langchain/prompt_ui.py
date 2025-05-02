@@ -29,7 +29,10 @@ lenght_input = st.selectbox(
 )
 
 #temlpate
-template = 
+template = PromptTemplate(
+    input_variables=["paper", "style", "audience", "length"],
+    template="Summarize the research paper '{paper}' in a {style} style for a {audience} audience. The summary should be {length}.",
+)
 
 user_input = st.text_input("Enter your prompt here:")
 if st.button("Summarize"):
