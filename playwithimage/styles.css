@@ -1,0 +1,44 @@
+.main {
+    background-color: #f5f1e8;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+    color: #4a2b13;
+}
+
+.stButton > button {
+    background-color: #8b4513;
+    color: #f5f1e8;
+    border: 2px solid #4a2b13;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #4a2b13;
+    color: #f5f1e8;
+}
+
+.humor-box {
+    background-color: #fff9e6;
+    border: 2px solid #8b4513;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.selected-box {
+    background-color: #e6ffe6;
+    border: 2px solid #006400;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.prompt-box {
+    background-color: #e6f0ff;
+    border: 2px solid #00008b;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+} 
