@@ -1,0 +1,7 @@
+imaplib2
+nltk
+tqdm
+openai
+transformers
+torch
+configparser
