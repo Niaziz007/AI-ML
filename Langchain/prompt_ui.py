@@ -8,7 +8,7 @@ from langchain_core.prompts import PromptTemplate
 
 load_dotenv()
 
-st.header("Prompt UI")
+st.header("Research Paper Summarizer")
 paper_input = st.selectbox(
     "Select a Research Paper Name",["Slect....", "Attention is All You Need", "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", 
                                     "GPT-3: Language Models are Few-Shot Learners","Diffusion Models Beat GANs on Image Synthesis", "DALL·E 2: A Second Generation Image Generation Model",
@@ -28,8 +28,19 @@ lenght_input = st.selectbox(
     "Select a Length", ["Slect....","Short(1-2 paragraphs)", "Medium(3-4 paragraphs)", "Long(5-6 paragraphs)", "Very Long(7+ paragraphs)"]
 )
 
-#temlpate
-template = 
+#template
+template = PromptTemplate(
+    input_variables=["paper", "style", "audience", "length"],
+    template="Summarize the research paper '{paper}' in a {style} style for a {audience} audience. The summary should be {length}.",
+)
+
+#fill the placeholders
+prompt = template.format(
+    paper=paper_input,
+    style=style_input,
+    audience=audience_input,
+    length=lenght_input
+)
 
 user_input = st.text_input("Enter your prompt here:")
 if st.button("Summarize"):
@@ -39,6 +50,5 @@ if st.button("Summarize"):
         temperature=0,
         max_tokens=1000,
     )
-    result = model.invoke(user_input)
+    result = model.invoke(prompt)
     st.write(result.content)
-
