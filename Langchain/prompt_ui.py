@@ -52,5 +52,3 @@ if st.button("Summarize"):
     )
     result = model.invoke(prompt)
     st.write(result.content)
-
-t5
