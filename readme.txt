@@ -1,5 +1,9 @@
 OPENAI_API_KEY=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
+YOUR_API_KEY = "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"
+prplx_client = OpenAI(api_key=YOUR_API_KEY, base_url="https://api.perplexity.ai")
 
+# GPT API KEY
+os.environ["OPENAI_API_KEY"] = "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"
 
 <<<<<<< HEAD
  
