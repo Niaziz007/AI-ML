@@ -1,14 +1,12 @@
 OPENAI_API_KEY=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
+Working key=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
+gemini-key=AIzaSyC09ZGXx4qI5FnSVg5N0Nf0rmXmrtC-LOc
 YOUR_API_KEY = "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"
 prplx_client = OpenAI(api_key=YOUR_API_KEY, base_url="https://api.perplexity.ai")
 
 # GPT API KEY
 os.environ["OPENAI_API_KEY"] = "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"
 
-<<<<<<< HEAD
- 
-=======
->>>>>>> 02f6939d3b476ef355023420a3d31a33b7664665
 {
     "message": "Conversation started.",
     "history": [
@@ -58,4 +56,3 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-kzDy8ogYuGM0f8R3j7HMpisOB5dR1MZraYjrMCtY
         }
     ]
 }
- 
