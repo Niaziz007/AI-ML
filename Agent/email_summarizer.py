@@ -57,7 +57,7 @@ class EmailSummarizer:
         
         self.config['Summarization'] = {
             'method': 'extractive',  # Options: extractive, transformer, openai
-            'openai_api_key': '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',  # Replace with your OpenAI API key
+            'openai_api_key': 'enter your key',  # Replace with your OpenAI API key
             'max_emails': '10',
             'summary_length': '3'  # sentences for extractive
         }
